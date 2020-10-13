@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    background-color: azure;
+}
+
+.cabezera {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 99%;
+    height: 140px;
+    text-align: center;
+    padding: 2px;
+    font-size: 26px;
+    border-radius: 10px;
+    color: azure;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.pie{
+    height: 250px;
+    font-size: 22px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.vinculo{
+    text-decoration: none;
+}
+
+.vinculo:hover{
+    color: azure;
+}
+.vinculo:active{
+    color: black;
+}
+
+.entradas {
+    width: 70%;
+    height: 120px;
+    margin: 5px 13% 5px 13%;
+    padding: 2rem;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+.elementos{
+    width: 95%;
+    height: 30px;
+    font-size: 23px;
+    border: none;
+}
+.btn{
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: 47%;
+}
+.btn:hover{
+    background-color: blue;
+}
+.btn:active{
+    background-color: white;
+    color: black;
+}
+
+.contenedor{
+    background-color: #7cffcb;
+    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);    
+    width: 70%;
+    min-height: 120px;
+    max-height: auto;
+    margin: 5px 13% 5px 13%;
+    padding: 2rem;    
+}
+
+
+.divisorelementos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+.textotodo{
+    flex: 10;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: black;    
+}
+
+.btn2{
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 2px;
+    border: solid white 3px;
+    color: white;
+    flex: 1;
+}
+
+.btn2:hover {
+    border: tomato solid 3px;
+    color: tomato;
+
+}
+.btn2:active{
+    border: blue solid 3px;
+    color: blueviolet;
+}
